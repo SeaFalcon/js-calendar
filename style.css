@@ -1,0 +1,89 @@
+		body {
+			font-family: 'Nanumsquare';
+			width: 100%
+		}
+
+		.content {
+			margin: 0 auto;
+			width: 728px;
+			padding: 30px;
+		}
+
+
+		#month {
+			color: #4adbac;
+			font-family: 'book antiqua';
+			font-style: italic;
+			margin: 0;
+			text-align: center;
+		}
+
+		.section {
+			margin: 0 auto;
+			display: inline-block;
+		}
+
+		.section ul.weekdays {
+			height: 40px;
+			background: #4abdac;
+			list-style: none;
+			display: block;
+			float: left;
+			width: 728px;
+			padding: 0;
+			margin: 0;
+		}
+
+		.section ul.weekdays li {
+			text-align: center;
+			text-transform: uppercase;
+			line-height: 20px;
+			border: none !important;
+			padding: 10px 6px;
+			color: #fff;
+			font-size: 13px;
+			float: left;
+			width: 92px;
+			;
+		}
+
+		.content hr {
+			background-color: #666666;
+			height: 2px;
+			border-style: none;
+			margin: 30px auto;
+			width: 200px;
+
+		}
+
+		.calendar {}
+
+		.day {
+			width: 60px;
+			height: 30px;
+			display: block;
+			float: left;
+			border: none;
+			margin: 2px;
+			padding-top: 10px;
+			padding-right: 30px;
+			padding-left: 10px;
+			padding-bottom: 30px;
+			background-color: rgb(238, 238, 238);
+			font-size: 15px;
+			font-weight: bold;
+			font-style: normal;
+			color: #666666;
+		}
+
+		.down {
+			display: table;
+		}
+
+		.sat {
+			color: rgb(54, 91, 170);
+		}
+
+		.sun {
+			color: rgb(255, 70, 70);
+		}
